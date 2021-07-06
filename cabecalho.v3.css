@@ -439,8 +439,10 @@ input#texto,input#texto1 {
     position: absolute;
 }
 .padrim {
-    width: 100px;
-    height: 36px;margin: 0 7px;    cursor: pointer;
+   width: 130px;
+    height: 42px;
+    margin: 0 7px;
+    cursor: pointer;
 }
 
 .pix{background: url(https://vulcannovel.com.br/wp-content/uploads/2021/06/pix-106-1.svg) no-repeat}.pic_pay{background: url(https://vulcannovel.com.br/wp-content/uploads/2021/06/picpay-44.svg) no-repeat;}
