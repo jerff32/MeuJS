@@ -69,3 +69,23 @@ var st02 = '<hr id="DVSEN1" /></div>'
       
       
       ); });});
+document.getElementById("botao").addEventListener("click", function(){
+
+document.getElementById("texto").select();
+
+document.execCommand('copy');
+  
+  });
+  document.getElementById("botao1").addEventListener("click", function(){
+
+document.getElementById("texto1").select();
+
+document.execCommand('copy');
+  
+  });function msg() {
+  $("#mensagem").addClass('ver');
+  setTimeout(function() {$("#mensagem").removeClass('ver'); }, 3000);
+};function msg2() {
+  $("#mensagem2").addClass('ver');
+  setTimeout(function() {$("#mensagem2").removeClass('ver'); }, 3000);
+};
