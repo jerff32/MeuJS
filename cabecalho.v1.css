@@ -410,7 +410,7 @@ background-position:-20px 0;
 }
 }
 
-#mensagem{transition: all 0.52s;
+#mensagem,#mensagem2{transition: all 0.52s;
     background: #0e2329;
     color: #f5ecfe;
     font-size: x-large;
@@ -426,7 +426,7 @@ background-position:-20px 0;
     opacity: 1;
 }
 
-#mensagem.ver {
+#mensagem.ver,#mensagem2.ver {
   top: 75px;
   opacity: 1;
 }
