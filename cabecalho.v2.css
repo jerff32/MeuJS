@@ -413,7 +413,6 @@ background-position:-20px 0;
 #mensagem,#mensagem2{transition: all 0.52s;
     background: #0e2329;
     color: #f5ecfe;
-    font-size: x-large;
     border: #777 solid 1px;
     border-radius: 34px;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 52%);
@@ -423,7 +422,7 @@ background-position:-20px 0;
     padding: 5px 0;
     text-align: center;
     left: auto;
-    opacity: 1;
+    opacity: 0;
 }
 
 #mensagem.ver,#mensagem2.ver {
