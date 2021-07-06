@@ -440,7 +440,7 @@ input#texto,input#texto1 {
 }
 .padrim {
     width: 100px;
-    height: 36px;margin: 0 7px;
+    height: 36px;margin: 0 7px;    cursor: pointer;
 }
 
 .pix{background: url(/wp-content/uploads/2021/06/pix-106-1.svg) no-repeat}.pic_pay{background: url(/wp-content/uploads/2021/06/picpay-44.svg) no-repeat;}
