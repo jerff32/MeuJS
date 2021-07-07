@@ -51,22 +51,33 @@ text-align:center;
 
 body::-webkit-scrollbar-track {
 -webkit-box-shadow:inset 0 0 8px rgba(0,0,0,.3);
-background-color:#212121;
+background-color:#0e2329;
 }
 
 ::-webkit-scrollbar-corner,body::-webkit-scrollbar {
-width:10px;
-height:10px;
+width:8px;
+height:8px;
 background-color:#212121;
 }
 
 body::-webkit-scrollbar-thumb {
-border-style:solid;
-border-radius:10px;
-background-color:#656673;
-background-image:-webkit-linear-gradient(90deg,transparent,rgba(0,0,0,.6) 50%,transparent,transparent);
+border-style: ridge;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #add7e1;
+    background-color: #0e2329;
 }
-
+.escuro::-webkit-scrollbar-track, .escuro::-webkit-scrollbar-corner, body::-webkit-scrollbar {
+    background-color: #212121;
+}
+.gandalf::-webkit-scrollbar-track, .gandalf::-webkit-scrollbar-corner, body::-webkit-scrollbar {
+    background-color: #757272;
+}.atlantida::-webkit-scrollbar-track, .atlantida::-webkit-scrollbar-corner, body::-webkit-scrollbar {
+    background-color: #3b536c;
+}
+.light::-webkit-scrollbar-track, .light::-webkit-scrollbar-corner, body::-webkit-scrollbar {
+    background-color: #fef4d6;
+}
 #container>div.post>div>section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed>div>div>div>div.elementor-widget.elementor-widget-html {
 margin:1px!important;
 }
