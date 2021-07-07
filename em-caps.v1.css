@@ -1,0 +1,128 @@
+@font-face{font-family:'OriginTech personal use';src:url('https://ttt.metal9000.repl.co/OriginTech personal use.ttf')}@font-face{font-family:'Dogtown Typewriter';src:url('https://ttt.metal9000.repl.co/Dogtown Typewriter.ttf')}:root{--fundo:19px;--tela:block;--lgr:20px;--brdr:50%;--lugar:absolute;--posiçao:-4px;--psc:0;--ttz:100%;--dist:-9px 0;--czt:61%}#DVZX{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist);opacity:32%;position:relative;top:3px}#DVZX1{width:var(--ttz);height:25px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-10-copiar-2.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist);opacity:32%;position:relative;top:3px}#DVZZ1{width:var(--ttz);height:26px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9-copiar-2.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist);opacity:31%}#DVZZ{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz-1.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist);opacity:31%;position:relative}#DVSEN{width:var(--ttz);height:38px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dx.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist);opacity:35%;position:relative;top:5px}#DVSEN1{width:var(--ttz);height:30px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/5f.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist);opacity:32%}#DV1{width:100%;height:26px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/01.png) center no-repeat;background-size:345px;filter:brightness(3.5);margin:var(--dist)}#DV2{width:var(--ttz);height:26px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/JhAHq12.png) center no-repeat;background-size:40%;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV3{width:var(--ttz);height:26px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/JhAHq12.png) center no-repeat;background-size:40%;margin:var(--dist);filter:drop-shadow(1px 3px 1px #000)}#DV4{width:var(--ttz);height:35px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-10-1.png) center no-repeat;background-size:contain;margin:0;filter:invert(1)}@media screen and (min-width:1024px){#DV4{background-size:55%}}@media screen and (min-width:1300px){#DV4{background-size:50%}}#DV5{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV6{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camda-7-.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV7{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz-1.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV8{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz.png) center no-repeat;background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV9{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-4.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV10{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-5.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV11{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-6.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV12{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/ede.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV13{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-8.png) center no-repeat;background-size:50%;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV14{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9.png) center no-repeat;background-size:50%;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV15{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/34.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV16{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/5455.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV17{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-8-copiar.png) center no-repeat;background-size:40%;margin:var(--dist);filter:brightness(78%) drop-shadow(1px 3px 1px #000)}#DV18{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9-copiar.png) center no-repeat;background-size:50%;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV19{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7-copiar.png) center no-repeat;background-size:50%;filter:drop-shadow(6px 1px 3px #bb25fc) invert(1);margin:var(--dist)}#DV20{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-6-copiar.png) center no-repeat;background-size:50%;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV21{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-5-copiar.png) center no-repeat;background-size:50%;margin:var(--dist);filter:invert() drop-shadow(1px 3px 1px #000);opacity:78%}#DV22{width:var(--ttz);height:40px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-4-copiar.png) center no-repeat;background-size:50%;filter:drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV23{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9-1.png) center no-repeat}#DV24{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-8-1.png) center no-repeat;background-size:contain}#DV25{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7-1.png) center no-repeat}#DV26{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-6-1.png) center no-repeat}#DV27{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-5-1.png) center no-repeat}#DV28{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-4-1.png) center no-repeat}#DV29{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-5-copiar-2.png) center no-repeat}#DV30{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-6-copiar-2.png) center no-repeat}#DV31{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7-copiar-2.png) center no-repeat}#DV32{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-8-copiar-2.png) center no-repeat}#DV33{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9-copiar-2.png) center no-repeat}#DV34{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-10-copiar-2.png) center no-repeat}#DV35{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-11-copiar-2.png) center no-repeat}#DV36{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-12-copiar-2.png) center no-repeat}#DV37{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/DV-copiar-2.png) center no-repeat}#DV38{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/4d4.png) center no-repeat}#DV39{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/5f.png) center no-repeat}#DV40{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dx.png) center no-repeat}#DV41{background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/nr.png) center no-repeat}.light #DV21,.light #DV23,.light #DV24,.light #DV25,.light #DV26,.light #DV27,.light #DV28,.light #DV29,.light #DV30,.light #DV31,.light #DV32,.light #DV33,.light #DV34,.light #DV35,.light #DV36,.light #DV37,.light #DV38,.light #DV39,.light #DV40,.light #DV41{filter:invert(0) drop-shadow(2px 4px 6px #000);opacity:1}#DV23,#DV24,#DV25,#DV26,#DV27,#DV28,#DV29,#DV30,#DV31,#DV32,#DV33,#DV34,#DV35,#DV36,#DV37,#DV38,#DV39,#DV40,#DV41{width:var(--ttz);height:40px;border-width:var(--psc);background-size:contain;filter:invert(1) drop-shadow(1px 3px 1px #000);margin:var(--dist)}#DV31{background-size:50%}#container>* .elementor-post-navigation__link>a:visited>span>span{color:#777}#SYS0{max-width:max-content;margin:auto;filter:drop-shadow(2px 4px 2px #000);background-color:#009eff70;background-image:linear-gradient(128deg,#000000bd,transparent)}#SYS0>p{padding:0 32px;color:#fff;text-shadow:#000 .1em .1em .2em,#000 .1em .1em .2em}#SYS0>h1,#SYS0>h2,#SYS0>h3,#SYS0>h4,#SYS0>h5,#SYS0>h6{text-shadow:#000 .1em .1em .2em,#000 .1em .1em .2em;margin:0 25px!important}.light #SYS0,.light #SYS0>p{color:#fff!important}.CINZA{background-color:#6c696970!important}.COR{background-image:url(https://vulcannovel.com.br/wp-content/uploads/2021/04/arco-iris.jpg)!important;background-position:center;background-color:#00000082!important;color:#fff;background-blend-mode:multiply;background-size:auto;background-attachment:fixed;font-family:'Origin Teck'}.VERMELHO{background-image:linear-gradient(156deg,#000000bd,#68171770,#f30f0f33,#0000008a)!important;background-color:#ff000075!important}.OVER{background-color:#009eff00!important;background-image:radial-gradient(circle,#064c7acf 0,#00162621 51%,#00ebff21 86%,#00ebff24 89%,#ff00 94%)!important;border-top:ridge 7px;border-bottom:groove 6px;border-color:#00afb4;margin-top:30px!important}.Dourado{filter:drop-shadow(1px 3px 1px #000) hue-rotate(222deg)!important}.OURO{background-color:#009eff00!important;background-image:radial-gradient(circle,#ffa5006b 0,#26000021 51%,#ffb90021 92%,#00000000 94%)!important;border-top:ridge 7px;border-bottom:groove 6px;border-color:#ffcd1d;margin-top:30px!important}.VERMELHO1{background-color:#009eff00!important;background-image:radial-gradient(circle,#ff00006b 0,#26000021 51%,#d4000087 92%,#00000000 94%)!important;border-top:ridge 7px;border-bottom:groove 6px;border-color:red;filter:drop-shadow(0 0 4px #000)!important;margin-top:30px!important}.VERDE{background-image:linear-gradient(27deg,#000000bd,#78ff0045,#006c3433,#0000008a)!important;background-color:#005c0480!important}.AZUL{background-image:radial-gradient(circle,#0a5a8f 0,#0675c4 51%,#194b76 92%)!important;border-top:ridge 7px;border-bottom:groove 6px;border-color:#00afb4;margin-top:30px!important}#DVBLU{width:var(--ttz);height:48px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/XCZ-1.png) center no-repeat;background-size:contain;filter:drop-shadow(1px 3px 1px #000);position:absolute;margin:-40px 0}#Vermelho1{width:var(--ttz);height:46px;border-width:var(--psc);background:transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dx-1.png) center no-repeat;background-size:contain;filter:drop-shadow(0px 3px 2px #000) drop-shadow(0px 3px 8px #000);position:absolute;margin:-36px 0}.COR>h2,.COR>h3,.COR>p{text-shadow:#000 .1em .1em .5em,#000 .1em .1em .5em,#000 .1em .1em 1.5em,#000 .1em .1em .5em,#000 .1em .1em .5em,#000 .1em .1em .5em,#000 .1em .1em .1em!important}#SYS0>h2,#SYS0>h3,#SYS0>h4,#SYS0>h5,#SYS0>h6{font-family:'OriginTech personal use';color:#fff;font-weight:10!important}#SYS0>h1{font-family:'Dogtown Typewriter';color:#fff;font-weight:10!important;font-variant:small-caps!important;letter-spacing:-3px}.light #SYS0>*,.light #SYS0>p>strong, .light #SYS0 > * span {color:#fff!important}#SYS0 > p > b {color: #c0e5f3;}.Verde4{background-color: #009eff00!important;
+    background-image: radial-gradient(circle,#02a9006b 0,#14260021 51%,#00ff2821 92%,#00000000 94%)!important;
+    border-top: ridge 7px;
+    border-bottom: groove 6px;
+    border-color: #0dbf00;
+    margin-top: 30px!important;}.Esverdeado {
+    filter: drop-shadow(1px 3px 1px #000) hue-rotate( 
+300deg
+ )!important;
+}
+#sistema-celular{
+  width: 340px;
+      min-height: 580px;
+    max-height: fit-content;
+  background: #565656;
+  border-radius: 50px;
+  border-width:4px;
+  border-color:black;
+  border-style: double;
+  margin: auto;
+  z-index: 0;filter: drop-shadow(1px 1px 3px black)drop-shadow(1px 1px 6px black);
+}
+div#tela-celular {
+    overflow-wrap: break-word;
+    color: #fff6e6;
+    font-family: cursive;
+  padding: 5px;
+  }
+#tela-celular>.txt {
+    filter: drop-shadow(2px 4px 6px black);
+}#tela-celular>.txt>p {margin-bottom: 8px;}
+#screen{ background: url(https://vulcannovel.com.br/wp-content/uploads/2021/06/001.jpg);
+    background-size: cover;
+   background-position: center;
+    background-color: #00000082;
+    background-blend-mode: multiply;
+  width: 320px;
+    min-height: 500px;
+    max-height: fit-content;
+         border-color:black;
+  border-style: solid;
+  border-radius: 5px;
+    margin: 30px 6px 0px;
+}
+
+#button{
+  width: 28px;
+  height: 28px;
+ background: #9c8686;
+ filter: brightness(0.5);
+  border-radius: 15px;
+  border-width:5px;
+  border-color:#333333;
+  border-style: double;
+ z-index: 0;
+    position: relative;
+    top: 0px;
+    left: 152px;
+  
+}
+#speaker{
+  width: 70px;
+    height: 4px;
+    background: black;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #cdcdcd;
+    border-style: groove;
+    position: absolute;
+    top: 13px;
+    left: 128px;
+}
+
+#camera{
+  width: 5px;
+ 
+  height: 5px;
+  background: #2c2e53;
+  border-radius: 8px;
+  border-width:4px;
+  border-color: #7290ba;
+  border-style: double;
+    margin: 0;
+    z-index: -1;
+    position: absolute;
+    top: 9px;
+    left: 30%;
+  
+}
+.Draco{
+    max-width: max-content;
+    margin: auto;
+    filter: drop-shadow(2px 4px 2px #000);background-image: linear-gradient(
+156deg
+,#000000bd,#df881380,#fe6a1833,#0000008a)!important;
+    background-color: #6f540475!important;
+}
+#DRG1{
+    width: var(--ttz);
+    height: 38px;
+    border-width: var(--psc);
+    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/06/Ouro1.png) center no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 3px 1px #000);
+    margin: var(--dist);
+    position: relative;
+    top: 5px;
+}#DRG2{
+    width: var(--ttz);
+    height: 30px;
+    border-width: var(--psc);
+    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/06/Ouro2.png) center no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 3px 1px #000);
+    margin: var(--dist);
+}html * {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}#cap_off > div:nth-child(2) > p {
+    color: #656c7a !important;
+}#cap_off > div:nth-child(2) > p > a {
+    color: #53b0ffbf !important;
+} img, html *{    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;}
