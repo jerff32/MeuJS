@@ -11,6 +11,11 @@ setTimeout(func, 1000); function func() {
 setTimeout(func, 1000); function func() {
     $("#cap-anterior").prepend('<i class="fa fa-angle-left anterior_mobile" aria-hidden="true"></i>') }
     });
+ $(document).ready(function(){
+setTimeout(func, 300); function func() { document.getElementById("cap_off").style.display = "none"; } 
+      });
+ $(document).ready(function(){
+$( "#wp-admin-bar-comet_cache-clear" ).after( "<style>img, html * { -webkit-user-drag: auto !important; -webkit-user-select: auto !important; -moz-user-select: initial !important; -ms-user-select: initial !important; }#cap-anterior > i, #proximo-cap > i { top: 50px; }</style>" ); });
   $(document).ready(function(){
   $('#letra-zoom').each(function() {
       var texto = $(this).html();
