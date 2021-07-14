@@ -89,30 +89,3 @@ var st00 = '<div id="SYS0"><hr id="DVZZ" />'; var stt00 = '<div id="SYS0" class=
       $(this).html(texto.replace(/#01#/g, dv1).replace(/\[themoneytizer id=”35847-39″\]|\⇐ Capítulo Anterior|Próximo Capítulo \⇒|\[themoneytizer id=”35847-11″\]|\[themoneytizer id=”35847-6″\]|\[themoneytizer id=”35847-31″\]|\[themoneytizer id=”35847-20″\]|\[themoneytizer id=”35847-4″\]|\[themoneytizer id=”35847-1″\]|\[themoneytizer id=”35847-28″]|\[themoneytizer id=”35847-19″]|\[themoneytizer id=”35847-16″]|\[themoneytizer id=”35847-2″]|\[themoneytizer id=”35847-3″]/g, ' ').replace(/#envenenamento#/g, envenenamento).replace(/#sangramento#/g, sangr).replace(/#02#/g, dv2).replace(/#03#/g, dv3).replace(/#04#/g, dv4).replace(/#05#/g, dv5).replace(/#06#/g, dv6).replace(/#07#/g, dv7).replace(/#08#/g, dv8).replace(/#09#/g, dv9).replace(/#10#/g, dv10).replace(/#11#/g, dv11).replace(/#12#/g, dv12).replace(/#13#/g, dv13).replace(/#14#/g, dv14).replace(/#15#/g, dv15).replace(/#16#/g, dv16).replace(/#17#/g, dv17).replace(/#18#/g, dv18).replace(/#19#/g, dv19).replace(/#20#/g, dv20).replace(/#21#/g, dv21).replace(/#22#/g, dv22).replace(/#23#/g, dv23).replace(/#24#/g, dv24).replace(/#25#/g, dv25).replace(/#26#/g, dv26).replace(/#27#/g, dv27).replace(/#28#/g, dv28).replace(/#29#/g, dv29).replace(/#30#/g, dv30).replace(/#sistema#/g, st00).replace(/#sistema-fim#/g, st01).replace(/#sistema-escuro#/g, stt00).replace(/#sistema-cor#/g, stt01).replace(/#sistema-red#/g, stt02).replace(/#sistema-verde#/g, stt03).replace(/#31#/g, dv31).replace(/#32#/g, dv32).replace(/#33#/g, dv33).replace(/#34#/g, dv34).replace(/#35#/g, dv35).replace(/#36#/g, dv36).replace(/#37#/g, dv37).replace(/#38#/g, dv38).replace(/#39#/g, dv39).replace(/#40#/g, dv40).replace(/#41#/g, dv41).replace(/#sistema-sen#/g, stt04).replace(/#fim-sen#/g, st02).replace(/#escuro-fim#/g, st011).replace(/#sistema-azul#/g, azul).replace(/#azul-fim#|#over-fim#|#ouro-fim#|#vermelho-fim#|#esverdeado-fim#/g, '</div>').replace(/#sistema-over#/g, Over).replace(/#sistema-ouro#/g, Ouro).replace(/#sistema-vermelho#/g , Vermelho1).replace(/#sistema-esverdeado#/g, Esverdeado).replace(/\/">Capítulo Anterior<\/a>|">Capítulo Anterior<\/a>/g, '/" id="OCULTO">Capítulo Anterior</a>').replace(/\/">Próximo Capítulo<\/a>|">Próximo Capítulo<\/a>/g, '/" id="OCULTO">Próximo Capítulo</a>').replace(/#sistema-cell#/g, '<div id="sistema-celular"><div id="screen"><div id="tela-celular"><div class="txt">').replace(/#cell-fim#/g, '</div></div></div><div id="button"></div><div id="speaker"></div><div id="camera"></div></div>').replace(/#sistema-draco#/g, Dragao).replace(/#draco-fim#/g, Dragao_Fim).replace(/#sono#/g, sono)
  ); });}); 
 
-/*-----
-- Doações em Caps
-_____*/
-if (typeof document.getElementById("botao")[0] != 'undefined')
-  document.getElementById("botao").addEventListener("click", function() {
-    document.getElementById("texto").select();
-    document.execCommand('copy');
-});
-if (typeof document.getElementById("botao1")[0] != 'undefined')
-document.getElementById("botao1").addEventListener("click", function() {
-    document.getElementById("texto1").select();
-    document.execCommand('copy');
-});
-if (typeof document.getElementById("botao1")[0] != 'undefined')
-function msg() {
-    $("#mensagem").addClass('ver');
-    setTimeout(function() {
-        $("#mensagem").removeClass('ver');
-    }, 3000);
-};
-
-function msg2() {
-    $("#mensagem2").addClass('ver');
-    setTimeout(function() {
-        $("#mensagem2").removeClass('ver');
-    });
-};
