@@ -1,3 +1,82 @@
+$(document).ready(function() {
+    var fontValue = localStorage.getItem("fontValue") || 16;
+    var themeValue = localStorage.getItem("themeValue") || "night";
+    document.getElementsByTagName("body").item(0).classList.add(themeValue);
+    $(document).ready(function() {
+        $(".fontSize").html(fontValue);
+        document.getElementById("letra-zoom").style.fontSize = fontValue + "px";
+    });
+    $(".fontPlus").click(function() {
+        if(fontValue < 30) fontValue++;
+        $("#letra-zoom").css({
+            fontSize: fontValue
+        });
+        $(".fontSize").html(fontValue);
+        localStorage.setItem("fontValue", fontValue);
+    });
+    $(".fontMinus").click(function() {
+        if(fontValue > 14) fontValue--;
+        $("#letra-zoom").css({
+            fontSize: fontValue
+        });
+        $(".fontSize").html(fontValue);
+        localStorage.setItem("fontValue", fontValue);
+    });
+    $(".themeNight").click(function() {
+        $("body").attr("class", "night");
+        localStorage.setItem("themeValue", "night");
+    });
+    $(".themeLight").click(function() {
+        $("body").attr("class", "light");
+        localStorage.setItem("themeValue", "light");
+    });
+    $(".themeEscuro").click(function() {
+        $("body").attr("class", "escuro");
+        localStorage.setItem("themeValue", "escuro");
+    });
+    $(".themeGandalf").click(function() {
+        $("body").attr("class", "gandalf");
+        localStorage.setItem("themeValue", "gandalf");
+    });
+    $(".themeAtlantida").click(function() {
+        $("body").attr("class", "atlantida");
+        localStorage.setItem("themeValue", "atlantida");
+    });
+    async function addToCache(urls) {
+        const chapterCache = await window.caches.open("chapter-cache");
+        await chapterCache.addAll(urls);
+    }
+    window.addEventListener("load", () => {
+        addToCache([""]);
+    });
+});
+$(document).ready(function() {
+    jQuery(function() {
+        $("div.elementor-post-navigation__next > a").attr("id", "proximo-cap");
+        $(".elementor-post-navigation__prev > a").attr("id", "cap-anterior");
+    });
+    document.body.addEventListener("keydown", function(e) {
+        if(39 === e.keyCode || 68 === e.keyCode) {
+            const e = document.getElementById("proximo-cap");
+            null === e || e.classList.contains("disabled") || e.click()
+        } else if(37 === e.keyCode || 65 === e.keyCode) {
+            const e = document.getElementById("cap-anterior");
+            null === e || e.classList.contains("disabled") || e.click()
+        }
+    });
+    jQuery(document).ready(function($) {
+        setTimeout(func, 1000);
+
+        function func() {
+            $("#proximo-cap").append('<i class="fa fa-angle-right proximo_mobile" aria-hidden="true"></i>')
+        }
+    });
+    setTimeout(func, 1000);
+
+    function func() {
+        $("#cap-anterior").prepend('<i class="fa fa-angle-left anterior_mobile" aria-hidden="true"></i>')
+    }
+});
   $(document).ready(function(){
   $('#letra-zoom').each(function() {
       var texto = $(this).html();
