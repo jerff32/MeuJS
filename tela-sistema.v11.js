@@ -92,4 +92,27 @@ var st00 = '<div id="SYS0"><hr id="DVZZ" />'; var stt00 = '<div id="SYS0" class=
 /*-----
 - Doações em Caps
 _____*/
-document.getElementById("botao").addEventListener("click", function(){document.getElementById("texto").select();document.execCommand('copy'); }); document.getElementById("botao1").addEventListener("click", function(){ document.getElementById("texto1").select(); document.execCommand('copy'); });function msg() { $("#mensagem").addClass('ver'); setTimeout(function() {$("#mensagem").removeClass('ver'); }, 3000); };function msg2() { $("#mensagem2").addClass('ver'); setTimeout(function() {$("#mensagem2").removeClass('ver'); }); };
+if (typeof document.getElementById("botao")[0] != 'undefined')
+  document.getElementById("botao").addEventListener("click", function() {
+    document.getElementById("texto").select();
+    document.execCommand('copy');
+});
+if (typeof document.getElementById("botao1")[0] != 'undefined')
+document.getElementById("botao1").addEventListener("click", function() {
+    document.getElementById("texto1").select();
+    document.execCommand('copy');
+});
+if (typeof document.getElementById("botao1")[0] != 'undefined')
+function msg() {
+    $("#mensagem").addClass('ver');
+    setTimeout(function() {
+        $("#mensagem").removeClass('ver');
+    }, 3000);
+};
+
+function msg2() {
+    $("#mensagem2").addClass('ver');
+    setTimeout(function() {
+        $("#mensagem2").removeClass('ver');
+    });
+};
