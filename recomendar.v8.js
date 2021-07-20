@@ -3,7 +3,7 @@ var xd = '<div class="novel_bloco"> <div class="novel_cartao"> <img src="';
 var dx = '</titulo_novel> </a> </div>';
 
 var novels = [
-'IMG >> /wp-content/uploads/2021/03/TLM-450x600-1.jpg" LINK >> tlm-the-legendary-mechanic NOME >> The Legendary Mechanic',
+' IMG >> /wp-content/uploads/2021/03/TLM-450x600-1.jpg" LINK >> tlm-the-legendary-mechanic NOME >> The Legendary Mechanic',
 ' IMG >> /wp-content/uploads/2021/04/Ned.jpg" LINK >> /nascimento-da-espada-demoniaca-ned/ NOME >> Nascimento da Espada Demoníaca',
 ' IMG >> /wp-content/uploads/2021/03/MP-3x4-1.jpg" LINK >> /mpe-monster-pet-evolution/ NOME >> Monster Paradise',
 ' IMG >> /wp-content/uploads/2021/03/EGP-3x4-1.jpg" LINK >> /the-evolution-of-a-goblin-to-the-peak-egp/ NOME >> The Evolution of a Goblin to the Peak',
@@ -37,7 +37,8 @@ var novels = [
 ' IMG >> /wp-content/uploads/2021/04/MAI-300.jpg" LINK >> /mai-o-mago-do-arco-iris-retorna/ NOME >> Mago do Arco-Íris',
 ' IMG >> /wp-content/uploads/2021/05/CE-300px.jpg" LINK >> /ce-corvo-escarlate NOME >> Corvo Escarlate',
 ' IMG >> /wp-content/uploads/2021/05/TOB-300px.jpg" LINK >> /tob-tales-of-blood/ NOME >> Tales of Blood',
-' IMG >> /wp-content/uploads/2021/06/LDD-300px.jpg" LINK >> /lenda-de-demonios-e-deidades-ldd/ NOME >> Lendas de Demônios e Deidades','IMG >> /wp-content/uploads/2021/05/ROC.jpg" LINK >> /roc-return-of-chaos/ NOME >> Return of Chaos',
+' IMG >> /wp-content/uploads/2021/06/LDD-300px.jpg" LINK >> /lenda-de-demonios-e-deidades-ldd/ NOME >> Lendas de Demônios e Deidades',
+' IMG >> /wp-content/uploads/2021/05/ROC.jpg" LINK >> /roc-return-of-chaos/ NOME >> Return of Chaos',
 ' IMG >> /wp-content/uploads/2021/06/RAC-_300px.jpg" LINK >> /rac-rei-do-abismo-convocado NOME >> Rei do Abismo Convocado',
 ' IMG >> /wp-content/uploads/2021/06/OUR-300px.jpg" LINK >> /our-o-ultimo-rei/ NOME >> O Ultimo Rei',
 ' IMG >> /wp-content/uploads/2021/04/sws-300px.jpg" LINK >> /sws-sky-way-slides/ NOME >> Sky Way: Sides',
@@ -45,8 +46,9 @@ var novels = [
 ' IMG >> /wp-content/uploads/2021/07/GB.jpg" LINK >> /gb-glutton-berserker-index/ NOME >> Glutton Berserker',
 ' IMG >> /wp-content/uploads/2021/04/14.jpg" LINK >> /sun-eu-sou-o-unico-necromante/ NOME >> Eu Sou o Único Necromante',
 ' IMG >> /wp-content/uploads/2021/05/UC_300px.jpg" LINK >> /uc-upando-comendo/ NOME >> Upando Comendo',
-' IMG >> /wp-content/uploads/2021/04/RGK-1.jpg" LINK >> /rise-of-the-godking-rgk/ NOME >> Rise of The Godking']
-const rps = novels[Math.floor(Math.random()*novels.length)].replace(' LINK >> ',' /> <a href="').replace(' NOME >> ','"> <titulo_novel>').replace('IMG >> ', '')
+' IMG >> /wp-content/uploads/2021/04/RGK-1.jpg" LINK >> /rise-of-the-godking-rgk/ NOME >> Rise of The Godking'
+]
+const rps = novels[Math.floor(Math.random()*novels.length)].replace(' LINK >> ',' /> <a href="').replace(' NOME >> ','"> <titulo_novel>').replace(' IMG >> ', '')
 
 $("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");
  $('#rcmdc').css('box-shadow', 'inset 0 0 15px black').css('background', '#00000026');
