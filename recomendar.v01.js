@@ -47,10 +47,7 @@ var novels = [
 ' IMG >> [/wp-content/uploads/2021/05/UC_300px.jpg] LINK >> [/uc-upando-comendo/] NOME >> [Upando Comendo]-',
 ' IMG >> [/wp-content/uploads/2021/04/RGK-1.jpg] LINK >> [/rise-of-the-godking-rgk/] NOME >> [Rise of The Godking'
 ]
-const rps = novels[Math.floor(Math.random()*novels.length)].replace('] LINK >> [','" /> <a href="').replace('] NOME >> [','"> <titulo_novel>').replace(' IMG >> []-',
-'').replace(']-','')
+const rps = novels[Math.floor(Math.random()*novels.length)].replace('] LINK >> [','" /> <a href="').replace('] NOME >> [','"> <titulo_novel>').replace(' IMG >> [','').replace(']-','')
 $("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");
- $('#rcmdc').css('box-shadow]-',
-'inset 0 0 15px black').css('background]-',
-'#00000026');
+ $('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');
  });
