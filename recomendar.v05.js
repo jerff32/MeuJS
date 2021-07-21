@@ -179,7 +179,7 @@ var novels = [
 'NOME > [Rise of The Godking]'
 
 ]
-const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(']', '');
+const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(/\]/g, '');
 
 $("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");
  $('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');
